@@ -1,0 +1,48 @@
+
+<html>
+
+<head>
+    <title>Elasic Slider - Rifat Digital Studio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="elastic-slider.css">
+    <style>
+        .clipped-left {
+            -webkit-clip-path: url(#clipped-left);
+            clip-path: url(#clipped-left);
+        }
+
+        .clipped-right {
+            -webkit-clip-path: url(#clipped-right);
+            clip-path: url(#clipped-right);
+        }
+
+    </style>
+
+    <script src="elastic-slider.js"></script>
+    <script src="snap.svg-min.js"></script>
+
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="elastic-slider">
+            <div id="image1"></div>
+            <div id="image2"></div>
+            <div id="image3"></div>
+            <div id="image4"></div>
+            <div id="image5"></div>
+            <div id="image6"></div>
+
+        </div>
+
+    </div>
+    <script>
+        new ElasticSlider('.elastic-slider');
+
+    </script>
+
+</body>
+
+</html>

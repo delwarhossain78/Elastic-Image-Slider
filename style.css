@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f0c08;
+}
+#image1{
+    background-image: url(image/pic1.jpg);
+}
+#image2{
+    background-image: url(image/pic2.jpg);
+}
+#image3{
+    background-image: url(image/pic3.jpg);
+}
+#image4{
+    background-image: url(image/pic4.jpg);
+}
+#image5{
+    background-image: url(image/pic5.jpg);
+}
+#image6{
+    background-image: url(image/pic4.gif);
+}
+.hero .elastic-slider{
+    cursor: grab;
+    width: 900px;
+    height: 600px;
+}
+.hero .elastic-slider div{
+    background-size: cover;
+    background-position: center;
+}
+
+
